@@ -7,13 +7,13 @@ int main() {
     int resposta = 1;
 
     while (resposta == 1) {
-        float x, y;
+        int x, y;
 
         printf("Digite a coordenada x: ");
-        scanf("%f", &x);
+        scanf("%d", &x);
 
         printf("Digite a coordenada y: ");
-        scanf("%f", &y);
+        scanf("%d", &y);
 
         Coordenada *novaCoordenada = criarCoordenada(x, y);
         inserirCoordenada(lista, novaCoordenada);

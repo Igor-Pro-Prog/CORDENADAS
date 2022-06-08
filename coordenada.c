@@ -3,8 +3,8 @@
 #include "coordenada.h"
 
 typedef struct coordernada {
-    float x;
-    float y;
+    int x;
+    int y;
     struct coordernada *prox;
 } Coordenada;
 
@@ -13,7 +13,7 @@ typedef struct listaCoordendas {
     Coordenada *fim;
 } ListaCoordenadas;
 
-Coordenada *criarCoordenada(float x, float y) {
+Coordenada *criarCoordenada(int x, int y) {
     Coordenada *novaCoordenada = (Coordenada *) malloc(sizeof(Coordenada));
     novaCoordenada->x = x;
     novaCoordenada->y = y;
@@ -58,7 +58,7 @@ void imprimirListaCoordenadas(ListaCoordenadas *lista) {
     Coordenada *aux = lista->inicio;
 
     while (aux != NULL) {
-        printf("(%f, %f)\n", aux->x, aux->y);
+        printf("(%d, %d)\n", aux->x, aux->y);
         aux = aux->prox;
     }
 }
