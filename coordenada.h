@@ -1,7 +1,7 @@
 typedef struct coordernada Coordenada;
 typedef struct listaCoordendas ListaCoordenadas;
 
-Coordenada *criarCoordenada(float, float);
+Coordenada *criarCoordenada(int, int);
 void destruirCoordenada(Coordenada *);
 
 ListaCoordenadas *criarListaCoordenadas();
