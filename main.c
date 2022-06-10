@@ -26,7 +26,7 @@ int main() {
         scanf("%d", &resposta);
     }
 
-    printf("Lista de coordenadas:\n");
+    printf("Lista de Coordenadas:\n");
     imprimirListaCoordenadas(lista);
 
     return 0;
