@@ -22,7 +22,7 @@ int main() {
         Coordenada *novaCoordenada = criarCoordenada(x, y);
         inserirCoordenada(lista, novaCoordenada);
 
-        printf("Deseja adicionar mais coordenadas? (1 - Sim | 0 - Não)\n");
+        printf("Deseja adicionar mais coordenadas? (1 - Sim | 0 - Não)\t");
         scanf("%d", &resposta);
     }
 
