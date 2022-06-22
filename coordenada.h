@@ -1,12 +1,4 @@
-typedef struct coordernada Coordenada;
-typedef struct listaCoordendas ListaCoordenadas;
+#include <stdio.h>
+#include <math.h>
 
-Coordenada *criarCoordenada(int, int);
-void destruirCoordenada(Coordenada *);
-
-ListaCoordenadas *criarListaCoordenadas();
-void destruirListaCoordenadas(ListaCoordenadas *);
-
-void inserirCoordenada(ListaCoordenadas *, Coordenada *);
-
-void imprimirListaCoordenadas(ListaCoordenadas *);
+float distancia(float x1, float y1, float x2, float y2);
