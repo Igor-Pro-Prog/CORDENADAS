@@ -5,7 +5,6 @@
     * Programa que recebe 3 coordenadas e calcula a area usando a formula de heron
 */
 
-#define QTD_COORDENADAS 3
 
 int main() {
     float area, coordenadas[2][QTD_COORDENADAS];
